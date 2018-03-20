@@ -8,19 +8,19 @@
  *
  * @author hecto
  */
-public class Association <K, V>{
-    private K english;
-    private V spanish;
-    public Association(K ingles, V espanol){
+public class Association {
+    private String english;
+    private String spanish;
+    public Association(String ingles, String espanol){
         english = ingles;
         spanish = espanol;
     }
     
-    public K getEnglish(){
+    public String getEnglish(){
         return english;
     }
     
-    public V getSpanish(){
+    public String getSpanish(){
         return spanish;
     }
 }

@@ -8,16 +8,16 @@
  *
  * @author hecto
  */
-public class Node <E> {
-    private E key;
+public class Node {
+    private Association key;
     private Node left, right;
     
-    public Node(E item){
+    public Node(Association item){
         key = item;
         left = right = null;
     }
     
-    public E getKey(){
+    public Association getKey(){
         return key;
     }
     
