@@ -3,7 +3,7 @@ public class Separar()
 	//donde se guardararn las palabras separadas
 	String[] palabrasSeparadas;
 	//las palabras que se van a separar
-	String palabrasJuntas = "el perro toma agua";
+	String palabrasJuntas = "el perro toma agua adentro de su casa";
 
 	//se separan las palabras
     File diccionario = new File(System.getProperty("user.dir")+"\\"+"Diccionario");
@@ -12,7 +12,7 @@ public class Separar()
     String linea;
     while((linea = buff.readLine()) != null)
     {
-   	palabrasSeparadas = palabrasJuntas.split(",");
+   		palabrasSeparadas = palabrasJuntas.split(",");
     }	
 }
 
